@@ -3,7 +3,7 @@
 # Book_Review
 
 #### 15/06/2020
-#### By **Jorim Midumbi Okong'o Opondo, Rose Kairu, Paul Mburu Njuguna**
+#### By **Jorim Midumbi Okong'o Opondo, Rose Kairu, Paul Mburu Njuguna, Ian Mdawida**
 
 ## Description
 This is a book review website. Users will be able to register here and then log in using their username and password. Once they log in, they will be able to search for books, leave reviews for individual books, and see the reviews made by other people. We will also use a third-party API by Goodreads, another book review website, to pull in ratings from a broader audience. Finally, users will be able to query for book details and book reviews programmatically via this website’s API.
@@ -84,7 +84,7 @@ Open the application on your browser `127.0.0.1:5000`.
 
 ## Contact Information 
 
-If you have any question or contributions, please email us at [okongo.midumbi.opondo@gmail.com, rosekairu@gmail.com, paulmburu08@gmail.com]
+If you have any question or contributions, please email us at [okongo.midumbi.opondo@gmail.com, rosekairu@gmail.com, paulmburu08@gmail.com, mdawidamengo@gmail.com]
 
 ## License:
 
