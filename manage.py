@@ -2,9 +2,15 @@
 
 import os
 from flask import render_template
-from application import create_app
+from app import create_app
+from flask_script import Manager,Server
 
-app = create_app()
+
+# Creating app instance
+app = create_app('development')
+
+manager = Manager(app)
+manager.add_command('server',Server)
 
 # Check for environment variable
 if not os.environ.get("DATABASE_URL"):
@@ -41,4 +47,4 @@ def bad_request(error):
 
 
 if __name__ == "__main__":
-    app.run()
+    manager.run()

@@ -22,7 +22,7 @@ def create_app():
     # Derive config values
     app.config.from_object("config.Config")
 
-    # Initialiaze plugins
+    # Initialize plugins
     sess.init_app(app)
 
     with app.app_context():
